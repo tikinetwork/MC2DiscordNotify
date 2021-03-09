@@ -13,7 +13,7 @@ messages inside a discord channel whenever mentioned.
 7. Enjoy! :tada:
 
 ## Releases / Downloads
-The latest releases can be found [here](https://github.com/tikinetwork/MCToDiscordNotify/releases).
+The latest releases can be found [here](https://github.com/tikinetwork/MC2DiscordNotify/releases).
 
 ## Authors
 - [Tjeu Foolen](https://github.com/tjeufoolen)
