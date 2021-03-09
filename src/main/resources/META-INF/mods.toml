@@ -1,0 +1,27 @@
+# The name of the mod loader type to load - for regular FML @Mod mods it should be javafml
+modLoader="javafml"
+# A version range to match for said mod loader - for regular FML @Mod it will be the forge version
+loaderVersion="[36,)"
+
+license="MIT License"
+
+# A URL to refer people to when problems occur with this mod
+issueTrackerURL="https://github.com/tikinetwork/MCToDiscordNotify/issues"
+
+[[mods]]
+modId="mc2discord-notify"
+version="${file.jarVersion}"
+displayName="MC2DiscordNotify"
+credits="Anyone who has contributed on Github and supports our development"
+authors="Tjeu Foolen, Micha Nijenhof"
+description='''
+Simple mod that rings a bell (literally) and sends a message to discord if credentials are specified in config.
+'''
+
+[[dependencies.MCToDiscordNotify]]
+    modId="minecraft"
+    mandatory=true
+# This version range declares a minimum of the current minecraft version up to but not including the next major version
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
